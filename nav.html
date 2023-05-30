@@ -65,27 +65,822 @@
 
 
 
-        <!--        <button style="border: 2px solid #000;margin-bottom: 20px;" data-bs-toggle="modal" data-bs-target="#quickOrder">-->
-        <!--            Быстрый заказ-->
-        <!--        </button>-->
+        <button style="border: 2px solid #fff; color: #fff;margin-bottom: 20px;" data-modal="sourceModal">
+            Источники
+        </button>
+        <button style="border: 2px solid #fff; color: #fff;margin-bottom: 20px;" data-modal="notificationModal">
+            Уведомления
+        </button>
+        <button style="border: 2px solid #fff; color: #fff;margin-bottom: 20px;" data-modal="authModal">
+            Авторизация
+        </button>
+        <button style="border: 2px solid #fff; color: #fff;margin-bottom: 20px;" data-modal="regModal">
+            Регистрация
+        </button>
+        <button style="border: 2px solid #fff; color: #fff;margin-bottom: 20px;" data-modal="loginModal">
+            Войти
+        </button>
+        <button style="border: 2px solid #fff; color: #fff;margin-bottom: 20px;" data-modal="filterModal">
+            Тип
+        </button>
+        <button style="border: 2px solid #fff; color: #fff;margin-bottom: 20px;" data-modal="torrentModal">
+            Сортировка торрентов
+        </button>
+        <button class="_show-player" style="border: 2px solid #fff; color: #fff;margin-bottom: 20px;">
+            Player
+        </button>
 
     </div>
 
-    <div class="modal" id="quickOrder" aria-hidden="true">
-        <div class="modal-dialog">
-            <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.55401 10.5L2 2.94599L2.94599 2L10.5 9.55401L18.054 2L19 2.94599L11.446 10.5L19 18.054L18.054 19L10.5 11.446L2.94599 19L2 18.054L9.55401 10.5Z" fill="#333333" />
-                </svg>
-            </button>
+    <div class="modal source-modal" id="sourceModal">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top">
+                <div class="modal__title text48">
+                    Источники
+                </div>
+                <button class="modal__close _close-modal">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16ZM8.00501 23.995C7.51685 23.5068 7.51685 22.7154 8.00501 22.2272L14.2322 16L8.005 9.77277C7.51685 9.28462 7.51685 8.49316 8.005 8.005C8.49316 7.51685 9.28462 7.51685 9.77277 8.005L16 14.2322L22.2272 8.005C22.7154 7.51685 23.5068 7.51685 23.995 8.005C24.4832 8.49316 24.4832 9.28462 23.995 9.77277L17.7678 16L23.995 22.2272C24.4831 22.7154 24.4831 23.5068 23.995 23.995C23.5068 24.4831 22.7154 24.4831 22.2272 23.995L16 17.7678L9.77277 23.995C9.28462 24.4831 8.49316 24.4831 8.00501 23.995Z" fill="white" />
+                    </svg>
+                </button>
+            </div>
+            <div class="source-modal__items">
+                <div class="source-card  m-btn-light m-btn-blur">
+                    <div class="source-card__title">
+                        <span class="text24">
+            VideoCDN
+        </span>
+                    </div>
 
+                </div>
 
+                <div class="source-card  m-btn-light m-btn-blur">
+                    <div class="source-card__title">
+                        <span class="text24">
+            Collaps
+        </span>
+                    </div>
 
+                </div>
+
+                <div class="source-card  m-btn-light m-btn-blur">
+                    <div class="source-card__title">
+                        <span class="text24">
+            Filmix
+        </span>
+                    </div>
+
+                    <div class="source-card__badges">
+                        <div class="source-card__badge">
+                            <span>VIP</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="source-card _disable m-btn-light m-btn-blur">
+                    <div class="source-card__title">
+                        <span class="text24">
+            Kinobase
+        </span>
+                    </div>
+
+                </div>
+
+                <div class="source-card  m-btn-light m-btn-blur">
+                    <div class="source-card__title">
+                        <span class="text24">
+            SeriaHD
+        </span>
+                    </div>
+
+                </div>
+
+                <div class="source-card  m-btn-light m-btn-blur">
+                    <div class="source-card__title">
+                        <span class="text24">
+            HDRezka
+        </span>
+                    </div>
+
+                    <div class="source-card__badges">
+                        <div class="source-card__badge">
+                            <span>VIP</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="source-card  m-btn-light m-btn-blur">
+                    <div class="source-card__title">
+                        <span class="text24">
+            KP
+        </span>
+                    </div>
+
+                    <div class="source-card__badges">
+                        <div class="source-card__badge">
+                            <span>VIP</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="source-card  m-btn-light m-btn-blur">
+                    <div class="source-card__title">
+                        <span class="text24">
+            VoKino
+        </span>
+                    </div>
+
+                    <div class="source-card__badges">
+                        <div class="source-card__badge">
+                            <span>VIP</span>
+                        </div>
+
+                        <div class="source-card__badge">
+                            <span>HQ</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="source-card  m-btn-light m-btn-blur">
+                    <div class="source-card__title">
+                        <span class="text24">
+            Bazon
+        </span>
+                    </div>
+
+                    <div class="source-card__badges">
+                        <div class="source-card__badge">
+                            <span>VIP</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 
+    <div class="modal notification-modal" id="notificationModal">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top">
+                <div class="modal__title text48">
+                    Уведомления
+                </div>
+                <button class="modal__close _close-modal">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16ZM8.00501 23.995C7.51685 23.5068 7.51685 22.7154 8.00501 22.2272L14.2322 16L8.005 9.77277C7.51685 9.28462 7.51685 8.49316 8.005 8.005C8.49316 7.51685 9.28462 7.51685 9.77277 8.005L16 14.2322L22.2272 8.005C22.7154 7.51685 23.5068 7.51685 23.995 8.005C24.4832 8.49316 24.4832 9.28462 23.995 9.77277L17.7678 16L23.995 22.2272C24.4831 22.7154 24.4831 23.5068 23.995 23.995C23.5068 24.4831 22.7154 24.4831 22.2272 23.995L16 17.7678L9.77277 23.995C9.28462 24.4831 8.49316 24.4831 8.00501 23.995Z" fill="white" />
+                    </svg>
+                </button>
+            </div>
+            <div class="modal__content">
+                <div class="notification-card _new">
+                    <div class="notification-card__top">
+                        <div class="notification-card__title text24 semi-bold-text">
+                            Обновление 0.0.6
+                        </div>
+                        <div class="notification-card__date text20">
+                            24.07.2022
+                        </div>
+                    </div>
+                    <div class="notification-card__text text20">
+                        <p>- Переработана главная страница, теперь там отображаются популярный контент из всех категорий + обновления сериалов.</p>
+                        <p>- На главной появилась возможность запустить слайдшоу из фильмов, которые сейчас <b>"в тренде"</b> . По умолчанию выключено, можно включить в настройках.</p>
+                        <p>- По просьбам многих добавлен <b>VideoCDN</b> для фильмов и сериалов.</p>
+                        <p>- Источник по умолчанию снова работает.</p>
+                        <p>- В личном кабинете появилась возможность сделать донат и пополнить счет для держателей европейских и американских карт.</p>
+                    </div>
+                </div>
+                <div class="notification-card">
+                    <div class="notification-card__wrap">
+                        <div class="notification-card__img">
+                            <img src="img/film17.webp" alt="">
+                        </div>
+                        <div class="notification-card__content">
+                            <div class="notification-card__top">
+                                <div class="notification-card__title text24 semi-bold-text">
+                                    Укрытие
+                                </div>
+                                <div class="notification-card__date text20">
+                                    01.07.2022
+                                </div>
+                            </div>
+                            <div class="notification-card__text text20">
+                                <p>Вышла новая серия!</p>
+                                <br>
 
-    <!-- <div class="modal-backdrop show"></div> -->
+                                <p>Сезон - 1</p>
+                                <p>Эпизод - 4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="notification-card">
+                    <div class="notification-card__top">
+                        <div class="notification-card__title text24 semi-bold-text">
+                            Обновление 0.0.4
+                        </div>
+                        <div class="notification-card__date text20">
+                            01.07.2022
+                        </div>
+                    </div>
+                    <div class="notification-card__text text20">
+                        <p>- Добавлено сохранение источника, озвучки и качества для каждого фильма в онлайн просмотре и торрентах.</p>
+                        <p>- Добавлен новый источник VIP с 4K HDR</p>
+                        <p>- Исправлена работа передачи контента с устройство на устройство и выдача кодов авторизации</p>
+                        <p>- Доработана выдача режиссерской версии фильмов с источника HDRezka</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal auth-modal" id="authModal">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top">
+                <div class="modal__title text48">
+                    Авторизация
+                </div>
+                <button class="modal__close _close-modal">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16ZM8.00501 23.995C7.51685 23.5068 7.51685 22.7154 8.00501 22.2272L14.2322 16L8.005 9.77277C7.51685 9.28462 7.51685 8.49316 8.005 8.005C8.49316 7.51685 9.28462 7.51685 9.77277 8.005L16 14.2322L22.2272 8.005C22.7154 7.51685 23.5068 7.51685 23.995 8.005C24.4832 8.49316 24.4832 9.28462 23.995 9.77277L17.7678 16L23.995 22.2272C24.4831 22.7154 24.4831 23.5068 23.995 23.995C23.5068 24.4831 22.7154 24.4831 22.2272 23.995L16 17.7678L9.77277 23.995C9.28462 24.4831 8.49316 24.4831 8.00501 23.995Z" fill="white" />
+                    </svg>
+                </button>
+            </div>
+            <div class="auth-modal__buttons">
+                <button data-modal="loginModal" class="auth-modal__btn m-btn m-btn-big m-btn-light m-btn-blur">
+                    <span>Войти</span>
+                </button>
+                <button data-modal="regModal" class="auth-modal__btn m-btn m-btn-big m-btn-light m-btn-blur">
+                    <span>Регистрация</span>
+                </button>
+                <button class="auth-modal__btn m-btn m-btn-big m-btn-light m-btn-blur">
+                    <span>Выход</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal auth-modal" id="regModal">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top">
+                <div class="modal__title text48">
+                    Регистрация
+                </div>
+                <button class="modal__close _close-modal">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16ZM8.00501 23.995C7.51685 23.5068 7.51685 22.7154 8.00501 22.2272L14.2322 16L8.005 9.77277C7.51685 9.28462 7.51685 8.49316 8.005 8.005C8.49316 7.51685 9.28462 7.51685 9.77277 8.005L16 14.2322L22.2272 8.005C22.7154 7.51685 23.5068 7.51685 23.995 8.005C24.4832 8.49316 24.4832 9.28462 23.995 9.77277L17.7678 16L23.995 22.2272C24.4831 22.7154 24.4831 23.5068 23.995 23.995C23.5068 24.4831 22.7154 24.4831 22.2272 23.995L16 17.7678L9.77277 23.995C9.28462 24.4831 8.49316 24.4831 8.00501 23.995Z" fill="white" />
+                    </svg>
+                </button>
+            </div>
+            <form class="auth-modal__form">
+                <fieldset class="fg">
+                    <label>Email</label>
+                    <input type="email" placeholder="Введите email">
+                </fieldset>
+                <fieldset class="fg">
+                    <label>Пароль</label>
+                    <input type="password" placeholder="Введите пароль">
+                </fieldset>
+                <button class="auth-modal__form-btn m-btn m-btn-big m-btn-accent">
+                    <span>Продолжить</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal auth-modal" id="loginModal">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top">
+                <div class="modal__title text48">
+                    Войти
+                </div>
+                <button class="modal__close _close-modal">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16ZM8.00501 23.995C7.51685 23.5068 7.51685 22.7154 8.00501 22.2272L14.2322 16L8.005 9.77277C7.51685 9.28462 7.51685 8.49316 8.005 8.005C8.49316 7.51685 9.28462 7.51685 9.77277 8.005L16 14.2322L22.2272 8.005C22.7154 7.51685 23.5068 7.51685 23.995 8.005C24.4832 8.49316 24.4832 9.28462 23.995 9.77277L17.7678 16L23.995 22.2272C24.4831 22.7154 24.4831 23.5068 23.995 23.995C23.5068 24.4831 22.7154 24.4831 22.2272 23.995L16 17.7678L9.77277 23.995C9.28462 24.4831 8.49316 24.4831 8.00501 23.995Z" fill="white" />
+                    </svg>
+                </button>
+            </div>
+            <form class="auth-modal__form">
+                <fieldset class="fg">
+                    <label>Email</label>
+                    <input type="email" placeholder="Введите email">
+                </fieldset>
+                <fieldset class="fg">
+                    <label>Пароль</label>
+                    <input type="password" placeholder="Введите пароль">
+                </fieldset>
+                <div class="auth-modal__or">
+                    <div class="auth-modal__or-text text24">Или введите код в личном кабинете</div>
+                    <div class="auth-modal__code">
+                        <span class="text48 bold-text">
+                        880 055
+                    </span>
+                    </div>
+                </div>
+                <button class="auth-modal__form-btn m-btn m-btn-big m-btn-accent">
+                    <span>Войти</span>
+                </button>
+                <div class="auth-modal__forgot">
+                    <div class="auth-modal__forgot-text text24">Забыли пароль? Перейдите на:</div>
+                    <a href="" class="auth-modal__forgot-link text24 bold-text">http://vokino.tv/password/reset</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal filter-modal" id="filterModal">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top">
+                <div class="modal__title text48">
+                    Тип
+                </div>
+                <button class="modal__close _close-modal">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16ZM8.00501 23.995C7.51685 23.5068 7.51685 22.7154 8.00501 22.2272L14.2322 16L8.005 9.77277C7.51685 9.28462 7.51685 8.49316 8.005 8.005C8.49316 7.51685 9.28462 7.51685 9.77277 8.005L16 14.2322L22.2272 8.005C22.7154 7.51685 23.5068 7.51685 23.995 8.005C24.4832 8.49316 24.4832 9.28462 23.995 9.77277L17.7678 16L23.995 22.2272C24.4831 22.7154 24.4831 23.5068 23.995 23.995C23.5068 24.4831 22.7154 24.4831 22.2272 23.995L16 17.7678L9.77277 23.995C9.28462 24.4831 8.49316 24.4831 8.00501 23.995Z" fill="white" />
+                    </svg>
+                </button>
+            </div>
+            <div class="modal__content">
+                <div class="filter-modal__items">
+                    <button class="filter-modal__btn m-btn m-btn-big m-btn-light m-btn-blur">
+                        <span>Любой</span>
+                    </button>
+                    <button class="filter-modal__btn m-btn m-btn-big m-btn-light m-btn-blur">
+                        <span>Фильмы</span>
+                    </button>
+                    <button class="filter-modal__btn _active m-btn m-btn-big m-btn-light m-btn-blur">
+                        <span>Сериалы</span>
+                    </button>
+                    <button class="filter-modal__btn m-btn m-btn-big m-btn-light m-btn-blur">
+                        <span>Мультфильмы</span>
+                    </button>
+                    <button class="filter-modal__btn m-btn m-btn-big m-btn-light m-btn-blur">
+                        <span>Мультсериалы</span>
+                    </button>
+                    <button class="filter-modal__btn m-btn m-btn-big m-btn-light m-btn-blur">
+                        <span>Док. Фильмы</span>
+                    </button>
+                    <button class="filter-modal__btn m-btn m-btn-big m-btn-light m-btn-blur">
+                        <span>Док. Сериалы</span>
+                    </button>
+                    <button class="filter-modal__btn m-btn m-btn-big m-btn-light m-btn-blur">
+                        <span>ТВ Шоу</span>
+                    </button>
+                    <button class="filter-modal__btn m-btn m-btn-big m-btn-light m-btn-blur">
+                        <span>Аниме</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal filter-modal" id="torrentModal">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top">
+                <div class="modal__title text48">
+                    Сортировка торрентов
+                </div>
+                <button class="modal__close _close-modal">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16ZM8.00501 23.995C7.51685 23.5068 7.51685 22.7154 8.00501 22.2272L14.2322 16L8.005 9.77277C7.51685 9.28462 7.51685 8.49316 8.005 8.005C8.49316 7.51685 9.28462 7.51685 9.77277 8.005L16 14.2322L22.2272 8.005C22.7154 7.51685 23.5068 7.51685 23.995 8.005C24.4832 8.49316 24.4832 9.28462 23.995 9.77277L17.7678 16L23.995 22.2272C24.4831 22.7154 24.4831 23.5068 23.995 23.995C23.5068 24.4831 22.7154 24.4831 22.2272 23.995L16 17.7678L9.77277 23.995C9.28462 24.4831 8.49316 24.4831 8.00501 23.995Z" fill="white" />
+                    </svg>
+                </button>
+            </div>
+            <div class="modal__content">
+                <div class="filter-modal__items">
+                    <button class="filter-modal__btn m-btn m-btn-big m-btn-light m-btn-blur">
+                        <span>По дате</span>
+                    </button>
+                    <button class="filter-modal__btn m-btn m-btn-big m-btn-light m-btn-blur">
+                        <span>По размеру (Убывание)</span>
+                    </button>
+                    <button class="filter-modal__btn _active m-btn m-btn-big m-btn-light m-btn-blur">
+                        <span>По размеру (Возрастание)</span>
+                    </button>
+                    <button class="filter-modal__btn m-btn m-btn-big m-btn-light m-btn-blur">
+                        <span>По сидам (Убывание)</span>
+                    </button>
+                    <button class="filter-modal__btn m-btn m-btn-big m-btn-light m-btn-blur">
+                        <span>По сидам (Возрастание)</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="player">
+        <div class="player__video">
+            <img src="img/film18.jpg" alt="">
+        </div>
+
+        <div class="player__wrap">
+            <div class="player-info">
+                <div class="player-info__quality">1080P</div>
+                <div class="player-info__title text48 bold-text">Черная Птица</div>
+                <div class="player-info__num text24">Сезон 1 Серия 3</div>
+            </div>
+            <div class="episode-progress__wrap">
+                <div class="episode-progress">
+                    <span style="width: 60%;"></span>
+                </div>
+                <span style="left: 60%;" class="episode-progress__slider"></span>
+            </div>
+            <div class="player-panel">
+                <div class="player-panel__time">
+                    00:34:49 / 00:57:49
+                </div>
+
+                <div class="player-control">
+                    <button class="player-control__prev"></button>
+                    <button class="player-control__play m-btn m-btn-accent"></button>
+                    <button class="player-control__next"></button>
+                </div>
+
+                <div class="player-panel__nav">
+                    <button class="_show-series player-panel__btn">
+                        <img src="img/series.svg" alt="">
+                    </button>
+                    <button class="player-panel__btn">
+                        <img src="img/quality.svg" alt="">
+                    </button>
+                    <button class="_show-settings player-panel__btn">
+                        <img src="img/settings.svg" alt="">
+                    </button>
+                    <button class="player-panel__btn">
+                        <img src="img/pip.svg" alt="">
+                    </button>
+                    <button class="player-panel__btn">
+                        <img src="img/speed.svg" alt="">
+                    </button>
+                    <button class="player-panel__btn">
+                        <img src="img/airplay.svg" alt="">
+                    </button>
+                    <button class="player-panel__btn">
+                        <img src="img/full2.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="player-settings">
+            <div class="player-settings__groups">
+                <div class="player-settings__group">
+                    <div class="player-settings__top">
+                        <div class="text48 semi-bold-text">Аудио</div>
+                    </div>
+                    <div class="player-settings__items">
+                        <div class="player-settings__item">
+                            <div class="player-settings__item-title text32">
+                                Авто
+                            </div>
+                            <div class="player-settings__item-check">
+                                <input checked type="radio" name="audio">
+                                <label>
+                                    <img src="img/check.svg" alt="">
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="player-settings__item">
+                            <div class="player-settings__item-title text32">
+                                Русский 5.1
+                            </div>
+                            <div class="player-settings__item-check">
+                                <input type="radio" name="audio">
+                                <label>
+                                    <img src="img/check.svg" alt="">
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="player-settings__item">
+                            <div class="player-settings__item-title text32">
+                                English 5.1
+                            </div>
+                            <div class="player-settings__item-check">
+                                <input type="radio" name="audio">
+                                <label>
+                                    <img src="img/check.svg" alt="">
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="player-settings__item">
+                            <div class="player-settings__item-title text32">
+                                Український
+                            </div>
+                            <div class="player-settings__item-check">
+                                <input type="radio" name="audio">
+                                <label>
+                                    <img src="img/check.svg" alt="">
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="player-settings__group">
+                    <div class="player-settings__top">
+                        <div class="text48 semi-bold-text">Субтитры</div>
+                    </div>
+                    <div class="player-settings__items">
+                        <div class="player-settings__item">
+                            <div class="player-settings__item-title text32">
+                                Авто
+                            </div>
+                            <div class="player-settings__item-check">
+                                <input checked type="radio" name="subtitle">
+                                <label>
+                                    <img src="img/check.svg" alt="">
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="player-settings__item">
+                            <div class="player-settings__item-title text32">
+                                Русские
+                            </div>
+                            <div class="player-settings__item-check">
+                                <input type="radio" name="subtitle">
+                                <label>
+                                    <img src="img/check.svg" alt="">
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="player-settings__item">
+                            <div class="player-settings__item-title text32">
+                                Английские
+                            </div>
+                            <div class="player-settings__item-check">
+                                <input type="radio" name="subtitle">
+                                <label>
+                                    <img src="img/check.svg" alt="">
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="series">
+            <div class="series__title text48 bold-text">
+                Черная Птица
+            </div>
+            <button class="series__close">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16ZM8.00501 23.995C7.51685 23.5068 7.51685 22.7154 8.00501 22.2272L14.2322 16L8.005 9.77277C7.51685 9.28462 7.51685 8.49316 8.005 8.005C8.49316 7.51685 9.28462 7.51685 9.77277 8.005L16 14.2322L22.2272 8.005C22.7154 7.51685 23.5068 7.51685 23.995 8.005C24.4832 8.49316 24.4832 9.28462 23.995 9.77277L17.7678 16L23.995 22.2272C24.4831 22.7154 24.4831 23.5068 23.995 23.995C23.5068 24.4831 22.7154 24.4831 22.2272 23.995L16 17.7678L9.77277 23.995C9.28462 24.4831 8.49316 24.4831 8.00501 23.995Z" fill="white" />
+                </svg>
+            </button>
+
+            <div class="series__tabs">
+                <div class="series__tab _active" data-tab="_group1">
+                    <span>Сезон 1</span>
+                </div>
+                <div class="series__tab" data-tab="_group2">
+                    <span>Сезон 2</span>
+                </div>
+                <div class="series__tab" data-tab="_group3">
+                    <span>Сезон 3</span>
+                </div>
+            </div>
+
+            <div class="series__groups">
+                <div class="series-group _active _group1">
+                    <div class="series-group__title">
+                        <span class="text32 semi-bold-text">Сезон 1</span>
+                    </div>
+
+                    <div class="series-slider">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="series-card _active">
+                                        <div class="series-card__img">
+                                            <img src="img/series.webp" alt="">
+                                        </div>
+                                        <div class="series-card__title text24 semi-bold-text">
+                                            Серия 1
+                                        </div>
+                                        <div class="series-card__duration text24 dark-gray-text">
+                                            57 мин
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="series-card ">
+                                        <div class="series-card__img">
+                                            <img src="img/series.webp" alt="">
+                                        </div>
+                                        <div class="series-card__title text24 semi-bold-text">
+                                            Серия 2
+                                        </div>
+                                        <div class="series-card__duration text24 dark-gray-text">
+                                            57 мин
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="series-card ">
+                                        <div class="series-card__img">
+                                            <img src="img/series3.webp" alt="">
+                                        </div>
+                                        <div class="series-card__title text24 semi-bold-text">
+                                            Серия 3
+                                        </div>
+                                        <div class="series-card__duration text24 dark-gray-text">
+                                            57 мин
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="series-card ">
+                                        <div class="series-card__img">
+                                            <img src="img/series4.webp" alt="">
+                                        </div>
+                                        <div class="series-card__title text24 semi-bold-text">
+                                            Серия 4
+                                        </div>
+                                        <div class="series-card__duration text24 dark-gray-text">
+                                            57 мин
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="series-card ">
+                                        <div class="series-card__img">
+                                            <img src="img/series5.webp" alt="">
+                                        </div>
+                                        <div class="series-card__title text24 semi-bold-text">
+                                            Серия 5
+                                        </div>
+                                        <div class="series-card__duration text24 dark-gray-text">
+                                            57 мин
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="series-card ">
+                                        <div class="series-card__img">
+                                            <img src="img/series.webp" alt="">
+                                        </div>
+                                        <div class="series-card__title text24 semi-bold-text">
+                                            Серия 6
+                                        </div>
+                                        <div class="series-card__duration text24 dark-gray-text">
+                                            57 мин
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="series-group _group2">
+                    <div class="series-group__title">
+                        <span class="text32 semi-bold-text">Сезон 2</span>
+                    </div>
+
+                    <div class="series-slider">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="series-card _active">
+                                        <div class="series-card__img">
+                                            <img src="img/series.webp" alt="">
+                                        </div>
+                                        <div class="series-card__title text24 semi-bold-text">
+                                            Серия 1
+                                        </div>
+                                        <div class="series-card__duration text24 dark-gray-text">
+                                            57 мин
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="series-card ">
+                                        <div class="series-card__img">
+                                            <img src="img/series.webp" alt="">
+                                        </div>
+                                        <div class="series-card__title text24 semi-bold-text">
+                                            Серия 2
+                                        </div>
+                                        <div class="series-card__duration text24 dark-gray-text">
+                                            57 мин
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="series-card ">
+                                        <div class="series-card__img">
+                                            <img src="img/series3.webp" alt="">
+                                        </div>
+                                        <div class="series-card__title text24 semi-bold-text">
+                                            Серия 3
+                                        </div>
+                                        <div class="series-card__duration text24 dark-gray-text">
+                                            57 мин
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="series-card ">
+                                        <div class="series-card__img">
+                                            <img src="img/series4.webp" alt="">
+                                        </div>
+                                        <div class="series-card__title text24 semi-bold-text">
+                                            Серия 4
+                                        </div>
+                                        <div class="series-card__duration text24 dark-gray-text">
+                                            57 мин
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="series-card ">
+                                        <div class="series-card__img">
+                                            <img src="img/series5.webp" alt="">
+                                        </div>
+                                        <div class="series-card__title text24 semi-bold-text">
+                                            Серия 5
+                                        </div>
+                                        <div class="series-card__duration text24 dark-gray-text">
+                                            57 мин
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="series-card ">
+                                        <div class="series-card__img">
+                                            <img src="img/series.webp" alt="">
+                                        </div>
+                                        <div class="series-card__title text24 semi-bold-text">
+                                            Серия 6
+                                        </div>
+                                        <div class="series-card__duration text24 dark-gray-text">
+                                            57 мин
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="series-group _group3">
+                    <div class="series-group__title">
+                        <span class="text32 semi-bold-text">Сезон 3</span>
+                    </div>
+
+                    <div class="series-slider">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="series-card ">
+                                        <div class="series-card__img">
+                                            <img src="img/series4.webp" alt="">
+                                        </div>
+                                        <div class="series-card__title text24 semi-bold-text">
+                                            Серия 4
+                                        </div>
+                                        <div class="series-card__duration text24 dark-gray-text">
+                                            57 мин
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--  -->
     <script src="js/libs.min.js"></script>
     <script src="js/main.min.js"></script>
